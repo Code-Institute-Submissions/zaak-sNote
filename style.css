@@ -1,0 +1,120 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+  
+  header {
+    background-color: #6b6919;
+    width: 100%;
+    padding:0;
+    margin:0;
+  }
+  
+  .container {
+   width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(#c2c229, #6f6f1b, yellow);
+    padding-top: 4%;
+  }
+  
+  .container h1 {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+    font-size: 35px;
+    font-weight: 600;
+  }
+  
+   .container h1 img {
+     width: 60px
+   }
+  
+  .container button img {
+    width: 25px;
+    margin-right: 8px;
+  }
+  
+  .container button {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(#26a13a, #99ffaa);
+    color: #fff;
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+  }
+    
+  .input-box {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    min-height: 150px;
+    background: #2a7fc0;
+    color: black;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .nav-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 25px;
+    cursor: pointer;
+  }
+  
+  .nav-icon span {
+    width: 100%;
+    height: 3px;
+    background-color: #000;
+    margin-bottom: 5px;
+  }
+  
+  .nav-menu {
+    display: none;
+  }
+  
+  .nav-menu ul.horizantal-list {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+  }
+  
+  .nav-menu ul.horizantal-list li {
+    margin-right: 10px;
+  }
+  
+  
+  .input-box img {
+    width: 25px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+  }
+  
+  .search {
+    position: absolute;
+    right: 15px;
+    top: 9px;
+  }
+  
+  @media screen and (max-width: 767px)   {
+    .input-box {
+      max-width: 300px;
+      min-height: 150px;
+    }
+  }
+  
+  
+  
